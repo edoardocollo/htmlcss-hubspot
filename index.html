@@ -2,69 +2,277 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>hubspot-clone</title>
+    <title>Hubspot_clone</title>
   </head>
   <body>
 
-    <!-- sticky nav bar -->
-    <div id="nav_top"class="bg_gray">
-      <div class="nav container clear">
-        <div id="nav_top_left" class="nav_left fl">
-          <a href="">English</a>
-          <span>&#124;</span>
-          <a href="">Contact Us</a>
-        </div>
-        <div id="nav_top_right" class="nav_right fl">
-          <i class="fas fa-search"></i>
-          <a href=""class="p_10_20">Login</a>
-          <a class="btn p_10_20" href="">Get Hubspot Free</a>
-        </div>
-      </div>
-    </div>
-    <!-- /sticky nav bar -->
+    <!-- header section -->
+    <header>
+      <!-- nav top section -->
+      <nav id="nav_top">
+        <!-- nav top container -->
+        <div id="nav_top_inner" class="container clear">
 
-    <header id="site_header">
+          <!-- nav top container left -->
+          <div id="nav_top_group_left" class="fl">
+            <i class="fas fa-globe-asia"></i>
+            <a class="p_10_20" href="#">english</a>
+            <span>&#124;</span>
+            <i class="fas fa-headset"></i>
+            <a class="p_10_20" href="#">contact sales</a>
+          </div>
+          <!-- /nav top container left -->
 
-      <!-- main nav -->
-      <nav id="main_nav">
-        <div class="nav container clear">
-          <div class="nav_left fl">
-            <img id="logo_nav" src="img/logo.svg" alt="">
+          <!-- nav top conteiner right -->
+          <div id="nav_top_group_right" class="fl">
+            <i class="fas fa-search"></i>
+            <a class="btn_white p_10_20 m_l_20" href="">log in</a>
+            <a class="btn p_10_20 m_l_20" href="">GetHubspotFree</a>
           </div>
-          <div class="nav_right fl">
-            <a class="p_10_20" href="">lorem</a>
-            <a class="p_10_20" href="">lorem</a>
-            <a class="p_10_20" href="">lorem</a>
-            <a class="p_10_20" href="">lorem</a>
-            <a class="p_10_20" href="">lorem</a>
-            <a class="p_10_20" href="">lorem</a>
-          </div>
+          <!-- /nav top conteiner right -->
+
         </div>
+        <!-- /nav top container -->
+
       </nav>
-      <!-- /main nav -->
+      <!-- /nav top section -->
 
-      <!-- hero banner -->
-      <div id="hero_banner">
-        <div class="container">
+      <!-- nav menu section -->
+      <nav id="nav_menu">
+
+        <!-- nav menu container -->
+        <div id="nav_menu_inner" class="container clear">
+
+          <!-- nav menu logo -->
+          <div id="nav_menu_img" class="fl">
+            <img id="logo_header" src="img/logo.svg" alt="">
+          </div>
+          <!-- /nav menu logo -->
+
+          <!-- nav menu right -->
+          <div id="nav_menu_right" class="fl">
+            <a class="p_10_20" href="">lorem</a>
+            <a class="p_10_20" href="">lorem</a>
+            <a class="p_10_20" href="">lorem</a>
+            <a class="p_10_20" href="">lorem</a>
+            <a class="p_10_20" href="">lorem</a>
+          </div>
+          <!-- nav menu right -->
+
+        </div>
+        <!-- /nav menu container -->
+
+      </nav>
+      <!-- /nav menu section -->
+
+      <!-- hero section -->
+      <section id="hero_section">
+        <div id="hero_inner" class="container">
           <div id="hero_text">
-            <h1>There's better way to grow</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, molestiae, provident exercitationem eos nobis veniam dolores rem, tenetur ducimus id quod commodi dolorum!</p>
-            <a class="btn p_20 inline" href="">get hubspot free</a>
-            <p class="font10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, culpa.</p>
+            <h1 class="m_20">There's a better way to grow.</h1>
+            <p class="motto m_20">Marketing' salese and service software that helps your business grow whitout compromise. Because "goog foe the business" shuld also mean "good for the customer" </p>
+            <a class="btn p_20" href="">GetHubspotFree</a>
+            <p class="get_start m_20">Get started whit FREE tools, and <br> upgrade as you grow</p>
           </div>
         </div>
-        <div class="green_spacer"></div>
-      </div>
-      <!-- /hero banner -->
+      </section>
+      <!-- /hero section -->
+
+      <!-- services section -->
+      <section id="services">
+
+        <!-- services inner container -->
+        <div id="services_inner" class="container clear">
+
+          <!-- service text -->
+          <div id="services_text">
+            <img src="img/cube.png" alt="">
+            <h2>Powerful Alone. Better Together</h2>
+            <p class="m_40">HubSpot offers a complete CRM platform with all the tools and integrations you need to grow better — whether you want to increase leads, accelerate sales, streamline customer service, or build a powerful website. They’re powerful alone, but even better when used together.</p>
+            <a class="btn_white p_10_20" href="">Get started free</a>
+            <a class="btn p_10_20 m_l_20" href="">Get a demo</a>
+          </div>
+          <!-- /service text -->
+
+          <!-- big card -->
+          <div class="big_card clear m_40 ">
+            <div class="big_card_img fl">
+              <div class="big_card_img_container">
+                <img src="img/book.png" alt="">
+                <br>
+                <a class="btn p_20 inline"href="#">learn more</a>
+              </div>
+            </div>
+            <div class="big_card_text fl ">
+              <div class="big_card_text_container">
+                <h3>Free HubSpot CMR</h3>
+                <p class="m_20">Everything youn need to organiza,track, and build better relationship with leads and customers. Yes, it's 100% free. Forever.</p>
+                <span class="upper_title">popolare feature</span>
+                <hr class="hr_big_card">
+                <ul class="m_20 clear">
+                  <li>Contact Insigh</li>
+                  <li>Deals</li>
+                  <li>Task</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /big card -->
+
+          <!-- small card container -->
+
+            <!-- row card container -->
+            <div class="row_card_container clear m_40">
+              <div class="card_container fl">
+                <div class="small_card p_20_40">
+                  <img src="img/bubble.png" alt="">
+                  <h3 class="m_20">Marketing Hub</h3>
+                  <p class="m_40">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+                  <hr class="m_40">
+                  <span class="upper_title">popular feature</span>
+                  <div class="small_card_ul m_40">
+                    <ul class="m_40">
+                      <li>Lead generation</li>
+                      <li>Marketing automation</li>
+                      <li>Analytics</li>
+                    </ul>
+                  </div>
+                  <a class="btn p_20_40 inline" href="">learn more</a>
+                </div>
+              </div>
+              <div class="card_container middle fl">
+                <div class="small_card p_20_40">
+                  <img src="img/bag.png" alt="">
+                  <h3 class="m_20">Marketing Hub</h3>
+                  <p class="m_40">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+                  <hr class="m_40">
+                  <span class="upper_title">popular feature</span>
+                  <div class="small_card_ul m_40">
+                    <ul class="m_40">
+                      <li>Lead generation</li>
+                      <li>Marketing automation</li>
+                      <li>Analytics</li>
+                    </ul>
+                  </div>
+                  <a class="btn p_20_40 inline" href="">learn more</a>
+                </div>
+              </div>
+              <div class="card_container fl">
+                <div class="small_card p_20_40">
+                  <img src="img/table.png" alt="">
+                  <h3 class="m_20">Marketing Hub</h3>
+                  <p class="m_40">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+                  <hr class="m_40">
+                  <span class="upper_title">popular feature</span>
+                  <div class="small_card_ul m_40">
+                    <ul class="m_40">
+                      <li>Lead generation</li>
+                      <li>Marketing automation</li>
+                      <li>Analytics</li>
+                    </ul>
+                  </div>
+                  <a class="btn p_20_40 inline" href="">learn more</a>
+                </div>
+
+              </div>
+            </div>
+            <!-- /row card container -->
+
+          <!-- small card container -->
+
+        </div>
+        <!-- /services inner container -->
+
+      </section>
+      <!-- /services section -->
+
+      <!-- statistics section -->
+      <section id="statistics">
+        <div id="statistics_container" class="container wt p_40">
+          <div id="statistics_text" >
+            <h2>Learn and grow with award-winning support and a thriving community behind you. </h2>
+            <p class="m_40">You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
+          </div>
+          <div id="statistics_grid" class="">
+            <div class="statistics_grid_row clear">
+              <div class="statistics_grid_col fl">
+                <img src="img/hand.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+              <div class="statistics_grid_col fl">
+                <img src="img/hub-logo.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+              <div class="statistics_grid_col fl">
+                <img src="img/academy.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+              <div class="statistics_grid_col final1 fl">
+                <img src="img/inbound.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+            </div>
+            <div class="statistics_grid_row clear">
+              <div class="statistics_grid_col down fl">
+                <img src="img/marketplace.png" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+              <div class="statistics_grid_col down fl">
+                <img src="img/earth.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+              <div class="statistics_grid_col down fl">
+                <img src="img/social.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+              <div class="statistics_grid_col down final1 fl">
+                <img src="img/people.svg" alt=""><br>
+                <span class="grid_title">150</span>
+                <div class="Grid_number_container">
+                  <span class="plus_span">+</span>
+                </div>
+                <div class="grid_text">HubSpot user groups</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- /statistics section -->
 
     </header>
+    <!-- /header section -->
 
-
-    <main>
-
-    </main>
   </body>
 </html>
