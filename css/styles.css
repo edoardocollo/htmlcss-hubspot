@@ -274,3 +274,64 @@ p.get_start {
 /* /statistics grid */
 
 /* /statistics section */
+
+/* customers and partners section */
+#customers_partners {
+  width: 100%;
+  height: 520px;
+}
+#customers_col {
+  position: relative;
+  width: 40%;
+  height: 200px;
+  text-align: center;
+}
+#customers_text_box {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#logos_col {
+  position: relative;
+  width: 60%;
+  height: 200px;
+}
+#logos_box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#logos_box img {
+  width: 150px;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 10px 15px;
+}
+#start_growing {
+  height: 320px;
+}
+#start_growing_text, #start_growing_img {
+  width: 50%;
+  height: 100%;
+}
+#start_growing_text {
+  position: relative;
+}
+#start_growing_text_box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#start_growing_text a {
+  display: inline-block;
+}
+#start_growing_text_box p:last-child {
+  font-size: 12px;
+}
+#start_growing_img img {
+  height: 320px;
+  float: right;
+}
+/* /customers and partners section */
