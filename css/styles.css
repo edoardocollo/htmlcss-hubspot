@@ -74,6 +74,7 @@
 /* utility class */
 body {
   font-family: 'Nunito', sans-serif;
+  min-width:1400px;
 }
 a {
   color: #33475b;
@@ -124,6 +125,7 @@ h1 {
 /* hero section */
 #hero_section {
   height: 775px;
+  position: relative;
   background-image: url('../img/jumbotron.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
@@ -413,3 +415,29 @@ footer hr {
   color: white;
 }
 /* /footer section */
+#metal {
+  position: absolute;
+  bottom: 10%;
+  left: 87%;
+  width: 70px;
+  height: 96px;
+  background-image: url('../img/1.png');
+  background-size: cover;
+  animation-name: pixel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes pixel {
+  0% {background-image: url('../img/1.png');}
+  10% {background-image: url('../img/2.png');}
+  20% {background-image: url('../img/3.png');}
+  30% {background-image: url('../img/4.png');}
+  40% {background-image: url('../img/5.png');}
+  50% {background-image: url('../img/6.png');}
+  60% {background-image: url('../img/7.png');}
+  60% {background-image: url('../img/8.png');}
+  70% {background-image: url('../img/9.png');}
+  80% {background-image: url('../img/10.png');}
+  90% {background-image: url('../img/11.png');}
+
+}
