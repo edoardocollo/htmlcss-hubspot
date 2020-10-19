@@ -14,6 +14,13 @@
   display: table;
   clear: both;
 }
+.arrow::after {
+ content: "\2304";
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
 .fl {
   float: left;
 }
@@ -22,6 +29,9 @@
 }
 .inline {
   display: inline-block;
+}
+.p_10_15 {
+  padding: 10px 15px;
 }
 .p_10_20 {
   padding: 10px 20px;
@@ -92,6 +102,10 @@ h1 {
 /* /nav top section */
 
 /* nav menu section */
+#nav_menu {
+  background: white;
+  z-index: 1000;
+}
 #nav_menu_inner {
   line-height: 80px;
 }
