@@ -268,7 +268,6 @@ p.get_start {
   height: 150px;
 }
 .statistics_grid_col {
-  position: relative;
   text-align: center;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
@@ -294,10 +293,7 @@ p.get_start {
   transform: translateY(-50%);
 }
 .statistics_card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 20px;
 }
 /* /statistics grid */
 
