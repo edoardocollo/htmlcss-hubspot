@@ -126,10 +126,22 @@ h1 {
 #hero_section {
   height: 775px;
   position: relative;
+  background-color: #fff2ee;
   background-image: url('../img/jumbotron.png');
-  background-position: 100% 100%;
+  background-position: top right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+
+}
+#hero_section::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 87px;
+  background-color: #a9ebe3;
+  border-top: 3px solid #36485c;
+  border-bottom: 3px solid #36485c;
 }
 #hero_inner {
   height: 100%;
@@ -417,7 +429,7 @@ footer hr {
 /* /footer section */
 #metal {
   position: absolute;
-  bottom: 10%;
+  bottom: 12%;
   left: 87%;
   width: 70px;
   height: 96px;
